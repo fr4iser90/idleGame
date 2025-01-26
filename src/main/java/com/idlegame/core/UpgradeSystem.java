@@ -8,9 +8,9 @@ public class UpgradeSystem {
     private final Map<String, Upgrade> upgrades;
     private final ResourceSystem resourceSystem;
 
-    public UpgradeSystem() {
+    public UpgradeSystem(ResourceSystem resourceSystem) {
         this.upgrades = new HashMap<>();
-        this.resourceSystem = new ResourceSystem();
+        this.resourceSystem = resourceSystem;
         initializeUpgrades();
     }
 

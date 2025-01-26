@@ -204,6 +204,30 @@ public final class GameConstants {
     public static final long DEBUG_TICK_INTERVAL = 100; // Debug tick interval
     public static final double DEBUG_SPEED_MULTIPLIER = 10.0; // Debug speed multiplier
     
+    // Building system constants
+    public static final String BUILDING_LOW_QUALITY = "LOW_QUALITY";
+    public static final String BUILDING_MEDIUM_QUALITY = "MEDIUM_QUALITY";
+    public static final String BUILDING_HIGH_QUALITY = "HIGH_QUALITY";
+    
+    // Base costs
+    public static final BigDecimal LOW_QUALITY_BASE_COST = new BigDecimal("10");
+    public static final BigDecimal MEDIUM_QUALITY_BASE_COST = new BigDecimal("100");
+    public static final BigDecimal HIGH_QUALITY_BASE_COST = new BigDecimal("1000");
+    
+    // Base generation rates
+    public static final BigDecimal LOW_QUALITY_GENERATION = new BigDecimal("0.1");
+    public static final BigDecimal MEDIUM_QUALITY_GENERATION = new BigDecimal("1.0");
+    public static final BigDecimal HIGH_QUALITY_GENERATION = new BigDecimal("10.0");
+    
+    // Cost multipliers
+    public static final BigDecimal LOW_QUALITY_COST_MULTIPLIER = new BigDecimal("1.15");
+    public static final BigDecimal MEDIUM_QUALITY_COST_MULTIPLIER = new BigDecimal("1.20");
+    public static final BigDecimal HIGH_QUALITY_COST_MULTIPLIER = new BigDecimal("1.25");
+    
+    // Unlock requirements
+    public static final BigDecimal MEDIUM_QUALITY_UNLOCK = new BigDecimal("1000");
+    public static final BigDecimal HIGH_QUALITY_UNLOCK = new BigDecimal("10000");
+    
     private GameConstants() {
         // Prevent instantiation
     }

@@ -9,17 +9,19 @@ public class GameManager {
     private static final Logger logger = LoggerFactory.getLogger(GameManager.class);
     private final ResourceSystem resourceSystem;
     private final UpgradeSystem upgradeSystem;
+    private final BuildingSystem buildingSystem;
     private GameState gameState;
     private boolean isRunning;
 
     public GameManager() {
         logger.info("Initializing GameManager");
         this.resourceSystem = new ResourceSystem();
-        this.upgradeSystem = new UpgradeSystem();
+        this.upgradeSystem = new UpgradeSystem(resourceSystem);
+        this.buildingSystem = new BuildingSystem(resourceSystem);
         this.gameState = new GameState();
         this.isRunning = false;
-        logger.debug("GameManager initialized with resourceSystem: {}, upgradeSystem: {}", 
-            resourceSystem, upgradeSystem);
+        logger.debug("GameManager initialized with resourceSystem: {}, upgradeSystem: {}, buildingSystem: {}", 
+            resourceSystem, upgradeSystem, buildingSystem);
     }
 
     public void clickAction() {

@@ -17,6 +17,8 @@ public class MainController {
     @FXML
     private Button upgradeButton;
     @FXML
+    private Button buildButton;
+    @FXML
     private VBox mainContainer;
 
     public void initialize() {
@@ -36,6 +38,15 @@ public class MainController {
         upgradeButton.setOnAction(event -> {
             if (gameManager.getPrimaryResource().compareTo(BigDecimal.TEN) >= 0) {
                 gameManager.upgradeGenerationRate(0.1);
+                gameManager.clickAction(); // Deduct cost
+                updateResourceDisplay();
+            }
+        });
+
+        // Build button action
+        buildButton.setOnAction(event -> {
+            if (gameManager.getPrimaryResource().compareTo(BigDecimal.valueOf(50)) >= 0) {
+                // TODO: Implement building purchase logic
                 gameManager.clickAction(); // Deduct cost
                 updateResourceDisplay();
             }

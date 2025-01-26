@@ -1,12 +1,14 @@
 com/idlegame/core/ResourceSystem.class
 com/idlegame/ui/MainController.class
 com/idlegame/core/UpgradeSystem.class
+com/idlegame/core/BuildingSystem$Building.class
 com/idlegame/core/GameState.class
 com/idlegame/core/UpgradeSystem$1.class
 com/idlegame/core/GameConstants.class
 com/idlegame/core/LoggerUtil.class
 com/idlegame/core/UpgradeSystem$UpgradeEffect.class
 com/idlegame/IdleGameApp.class
+com/idlegame/core/BuildingSystem.class
 com/idlegame/core/UpgradeSystem$UpgradeType.class
 com/idlegame/core/UpgradeSystem$Upgrade.class
 com/idlegame/core/GameManager.class
