@@ -1,0 +1,57 @@
+# Idle Game Roadmap
+
+## Project Structure
+- src/main/java
+  - com.idlegame
+    - core/ (core game logic)
+    - ui/ (minimal UI components)
+    - resources/ (game resources)
+    - persistence/ (save/load functionality)
+- pom.xml (Maven configuration)
+
+## Core Features
+1. Game Loop
+   - Passive income generation
+   - Click-based actions
+   - Time-based progression
+
+2. Resource System
+   - Primary currency
+   - Secondary resources
+   - Resource generation rates
+
+3. Upgrade System
+   - Unlockable upgrades
+   - Cost scaling
+   - Passive effects
+
+4. Minimal UI
+   - Resource display
+   - Upgrade buttons
+   - Progress indicators
+
+5. Persistence
+   - Save game state
+   - Load game state
+   - Auto-save functionality
+
+## Dependencies
+- JavaFX (for minimal UI)
+- Jackson (for JSON serialization)
+- JUnit (for testing)
+
+## Development Milestones
+1. [ ] Setup Maven project structure
+2. [ ] Implement core game loop
+3. [ ] Add resource system
+4. [ ] Create upgrade system
+5. [ ] Implement basic UI
+6. [ ] Add save/load functionality
+7. [ ] Testing and balancing
+
+## Game Design Goals
+- Simple but engaging mechanics
+- Minimal UI focus
+- Balanced progression
+- Unique upgrade paths
+- Offline progression
