@@ -1,6 +1,7 @@
 package com.idlegame.ui;
 
 import com.idlegame.core.GameManager;
+import java.math.BigDecimal;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -33,7 +34,7 @@ public class MainController {
 
         // Upgrade button action
         upgradeButton.setOnAction(event -> {
-            if (gameManager.getPrimaryResource() >= 10) {
+            if (gameManager.getPrimaryResource().compareTo(BigDecimal.TEN) >= 0) {
                 gameManager.upgradeGenerationRate(0.1);
                 gameManager.clickAction(); // Deduct cost
                 updateResourceDisplay();

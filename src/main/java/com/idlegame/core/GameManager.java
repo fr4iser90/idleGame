@@ -1,51 +1,100 @@
 package com.idlegame.core;
 
-import java.util.Timer;
-import java.util.TimerTask;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import java.math.BigDecimal;
+
 
 public class GameManager {
-    private double primaryResource = 0;
-    private double resourceGenerationRate = 1.0;
-    private Timer gameTimer;
+    private static final Logger logger = LoggerFactory.getLogger(GameManager.class);
+    private final ResourceSystem resourceSystem;
+    private final UpgradeSystem upgradeSystem;
+    private GameState gameState;
+    private boolean isRunning;
 
     public GameManager() {
-        initializeGame();
-    }
-
-    private void initializeGame() {
-        // Setup game timer for passive resource generation
-        gameTimer = new Timer();
-        gameTimer.scheduleAtFixedRate(new TimerTask() {
-            @Override
-            public void run() {
-                generateResources();
-            }
-        }, 1000, 1000); // Update every second
-    }
-
-    private void generateResources() {
-        primaryResource += resourceGenerationRate;
+        logger.info("Initializing GameManager");
+        this.resourceSystem = new ResourceSystem();
+        this.upgradeSystem = new UpgradeSystem();
+        this.gameState = new GameState();
+        this.isRunning = false;
+        logger.debug("GameManager initialized with resourceSystem: {}, upgradeSystem: {}", 
+            resourceSystem, upgradeSystem);
     }
 
     public void clickAction() {
-        primaryResource += 1;
+        logger.debug("Processing click action");
+        resourceSystem.addResource(GameConstants.PRIMARY_CURRENCY, 
+            BigDecimal.ONE);
+        logger.debug("Primary currency updated to: {}", 
+            resourceSystem.getResource(GameConstants.PRIMARY_CURRENCY));
     }
 
-    public double getPrimaryResource() {
-        return primaryResource;
+    public BigDecimal getPrimaryResource() {
+        return resourceSystem.getResource(GameConstants.PRIMARY_CURRENCY);
     }
 
-    public double getResourceGenerationRate() {
-        return resourceGenerationRate;
+    public void upgradeGenerationRate(double multiplier) {
+        resourceSystem.upgradeGenerationRate(
+            GameConstants.PRIMARY_CURRENCY, 
+            BigDecimal.valueOf(multiplier)
+        );
     }
 
-    public void upgradeGenerationRate(double amount) {
-        resourceGenerationRate += amount;
+    public void startGame() {
+        logger.info("Starting game");
+        isRunning = true;
+        runGameLoop();
+        logger.info("Game loop started");
+    }
+
+    private void runGameLoop() {
+        logger.debug("Entering game loop");
+        while (isRunning) {
+            updateGame();
+            try {
+                Thread.sleep(GameConstants.GAME_TICK_DURATION);
+            } catch (InterruptedException e) {
+                logger.error("Game loop interrupted", e);
+                Thread.currentThread().interrupt();
+                stopGame();
+            }
+        }
+        logger.debug("Exiting game loop");
+    }
+
+    private void updateGame() {
+        logger.trace("Updating game state");
+        resourceSystem.updateResources();
+        logger.trace("Resources updated");
+        upgradeSystem.applyUpgradeEffects();
+        logger.trace("Upgrades applied");
+        checkForUnlocks();
+        if (gameState.shouldAutoSave()) {
+            logger.debug("Auto-saving game state");
+            saveGameState();
+        }
+    }
+
+    private void checkForUnlocks() {
+        // Logic for checking unlock conditions
+    }
+
+    private void saveGameState() {
+        // Persistence logic
     }
 
     public void stopGame() {
-        if (gameTimer != null) {
-            gameTimer.cancel();
-        }
+        logger.info("Stopping game");
+        isRunning = false;
+        logger.info("Game stopped");
+    }
+
+    public ResourceSystem getResourceSystem() {
+        return resourceSystem;
+    }
+
+    public UpgradeSystem getUpgradeSystem() {
+        return upgradeSystem;
     }
 }
