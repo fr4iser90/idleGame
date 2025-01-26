@@ -81,3 +81,49 @@
 2025-01-26 02:47:24 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 38
 2025-01-26 02:47:24 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
 2025-01-26 02:47:24 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 39
+2025-01-26 02:48:05 INFO  [JavaFX Application Thread] com.idlegame.core.GameManager - Initializing GameManager
+2025-01-26 02:48:05 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - GameManager initialized with resourceSystem: com.idlegame.core.ResourceSystem@609b42eb, upgradeSystem: com.idlegame.core.UpgradeSystem@7447605d
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 1
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 2
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 3
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 4
+2025-01-26 02:48:09 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:09 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 5
+2025-01-26 02:48:09 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:09 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 6
+2025-01-26 02:48:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 7
+2025-01-26 02:48:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 8
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 9
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 10
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 11
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:11 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 12
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 13
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 14
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 15
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 16
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 17
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:12 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 18
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 19
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 20
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 21
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 02:48:13 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 22
