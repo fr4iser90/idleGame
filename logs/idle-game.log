@@ -403,3 +403,509 @@
 2025-01-26 03:31:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - GameManager initialized with resourceSystem: com.idlegame.core.ResourceSystem@1c71e61f, upgradeSystem: com.idlegame.core.UpgradeSystem@537b2844, buildingSystem: com.idlegame.core.BuildingSystem@db87775
 2025-01-26 03:31:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
 2025-01-26 03:31:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 1
+2025-01-26 03:34:38 INFO  [JavaFX Application Thread] com.idlegame.core.GameManager - Initializing GameManager
+2025-01-26 03:34:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - GameManager initialized with resourceSystem: com.idlegame.core.ResourceSystem@1c71e61f, upgradeSystem: com.idlegame.core.UpgradeSystem@537b2844, buildingSystem: com.idlegame.core.BuildingSystem@db87775
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 1
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 2
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 3
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 4
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 5
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 6
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 7
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 8
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 9
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 10
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 11
+2025-01-26 03:34:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 12
+2025-01-26 03:34:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 13
+2025-01-26 03:34:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 14
+2025-01-26 03:34:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 15
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 16
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 17
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 18
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 19
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 20
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 21
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 22
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 23
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 24
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 25
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 26
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 27
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 28
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 29
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 30
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 31
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 32
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 33
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 34
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 35
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 36
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 37
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 38
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 39
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 40
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 41
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 42
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 43
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 44
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 45
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 46
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 47
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 48
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 49
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 50
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 51
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 52
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 53
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 54
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 55
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 56
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 57
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 58
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:34:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Primary currency updated to: 59
+2025-01-26 03:58:29 INFO  [JavaFX Application Thread] com.idlegame.core.GameManager - Initializing GameManager
+2025-01-26 03:58:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - GameManager initialized with resourceSystem: com.idlegame.core.ResourceSystem@1c71e61f, upgradeSystem: com.idlegame.core.UpgradeSystem@537b2844, buildingSystem: com.idlegame.core.BuildingSystem@db87775
+2025-01-26 03:58:32 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:32 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:34 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:35 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:40 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 03:58:47 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:25 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Initializing MainController
+2025-01-26 04:01:25 INFO  [JavaFX Application Thread] com.idlegame.core.GameManager - Initializing GameManager
+2025-01-26 04:01:25 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - GameManager initialized with resourceSystem: com.idlegame.core.ResourceSystem@1c71e61f, upgradeSystem: com.idlegame.core.UpgradeSystem@537b2844, buildingSystem: com.idlegame.core.BuildingSystem@db87775
+2025-01-26 04:01:26 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:26 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:28 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:29 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:30 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:31 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:31 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:31 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:31 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:31 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:31 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:32 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:01:32 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:32 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:36 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:01:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:01:36 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:01:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:01:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:07:56 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Initializing MainController
+2025-01-26 04:07:56 INFO  [JavaFX Application Thread] com.idlegame.core.GameManager - Initializing GameManager
+2025-01-26 04:07:56 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - GameManager initialized with resourceSystem: com.idlegame.core.ResourceSystem@1c71e61f, upgradeSystem: com.idlegame.core.UpgradeSystem@537b2844, buildingSystem: com.idlegame.core.BuildingSystem@db87775
+2025-01-26 04:07:58 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:07:58 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:07:59 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:00 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:00 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:00 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:00 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:02 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:03 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:03 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:03 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:03 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:03 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:03 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:03 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:03 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:04 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:05 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:05 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:05 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:05 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:05 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:05 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:06 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:07 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:08 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing building
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:08 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:09 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:09 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:10 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:10 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:10 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:10 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:10 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:36 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Initializing MainController
+2025-01-26 04:08:36 INFO  [JavaFX Application Thread] com.idlegame.core.GameManager - Initializing GameManager
+2025-01-26 04:08:36 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - GameManager initialized with resourceSystem: com.idlegame.core.ResourceSystem@1c71e61f, upgradeSystem: com.idlegame.core.UpgradeSystem@537b2844, buildingSystem: com.idlegame.core.BuildingSystem@db87775
+2025-01-26 04:08:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:37 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:38 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:39 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:39 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:41 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:42 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:43 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:43 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:44 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:45 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:46 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:48 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:49 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing building
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:49 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:50 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing building
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:50 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing building
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:50 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing building
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:50 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing building
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:50 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:51 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:51 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:52 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:52 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Processing click action
+2025-01-26 04:08:52 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Click added 2.0 (x2 from upgrades, x1.0 from buildings)
+2025-01-26 04:08:53 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:53 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:53 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:53 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:53 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:53 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources
+2025-01-26 04:08:53 INFO  [JavaFX Application Thread] com.idlegame.ui.MainController - Purchasing generation rate upgrade
+2025-01-26 04:08:53 DEBUG [JavaFX Application Thread] com.idlegame.core.GameManager - Deducting 10 resources

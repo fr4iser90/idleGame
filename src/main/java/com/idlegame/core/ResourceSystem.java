@@ -11,7 +11,7 @@ import java.util.Map;
 public class ResourceSystem {
     private final Map<String, BigDecimal> resources;
     private final Map<String, BigDecimal> generationRates;
-    private BigDecimal clickMultiplier;
+    private final Map<String, BigDecimal> clickMultipliers = new HashMap<>();
 
     /**
      * Initializes the resource system with default values.
@@ -21,7 +21,8 @@ public class ResourceSystem {
     public ResourceSystem() {
         resources = new HashMap<>();
         generationRates = new HashMap<>();
-        clickMultiplier = BigDecimal.ONE;
+        // Initialize default click multiplier
+        clickMultipliers.put("base", BigDecimal.ONE);
         initializeResources();
     }
 
@@ -34,11 +35,11 @@ public class ResourceSystem {
      * Updates all resources based on their generation rates.
      * Called periodically by the game loop to increment resources.
      */
-    public void updateResources() {
-        resources.forEach((key, value) -> {
-            BigDecimal generation = generationRates.getOrDefault(key, BigDecimal.ZERO);
-            resources.put(key, value.add(generation));
-        });
+    public void updateResources(BuildingSystem buildingSystem) {
+        BigDecimal baseRate = generationRates.getOrDefault(GameConstants.PRIMARY_CURRENCY, BigDecimal.ZERO);
+        BigDecimal multiplier = buildingSystem.getBuildingMultiplier(GameConstants.PRIMARY_CURRENCY);
+        resources.computeIfPresent(GameConstants.PRIMARY_CURRENCY, 
+            (k, v) -> v.add(baseRate.multiply(multiplier)));
     }
 
     /**
@@ -55,7 +56,16 @@ public class ResourceSystem {
      * @param resourceName The name of the resource to add to
      */
     public void addResource(String resourceName, BigDecimal amount) {
-        resources.put(resourceName, resources.getOrDefault(resourceName, BigDecimal.ZERO).add(BigDecimal.ONE));
+        resources.put(resourceName, resources.getOrDefault(resourceName, BigDecimal.ZERO).add(amount));
+    }
+
+    public void deductResource(String resourceName, BigDecimal amount) {
+        BigDecimal current = resources.getOrDefault(resourceName, BigDecimal.ZERO);
+        if (current.compareTo(amount) >= 0) {
+            resources.put(resourceName, current.subtract(amount));
+        } else {
+            resources.put(resourceName, BigDecimal.ZERO);
+        }
     }
 
     /**
@@ -74,15 +84,20 @@ public class ResourceSystem {
      * @return Current click multiplier value
      */
     public BigDecimal getClickMultiplier() {
-        return clickMultiplier;
+        return BigDecimal.ONE.add(clickMultipliers.values().stream()
+            .reduce(BigDecimal.ZERO, BigDecimal::add));
     }
 
     /**
      * Sets the click multiplier value.
      * @param multiplier New multiplier value
      */
+    public void addClickMultiplier(String id, BigDecimal multiplier) {
+        clickMultipliers.put(id, multiplier);
+    }
+
     public void setClickMultiplier(BigDecimal multiplier) {
-        this.clickMultiplier = multiplier;
+        clickMultipliers.put("base", multiplier);
     }
 
     /**

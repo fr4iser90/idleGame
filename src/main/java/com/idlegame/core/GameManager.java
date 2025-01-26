@@ -26,10 +26,20 @@ public class GameManager {
 
     public void clickAction() {
         logger.debug("Processing click action");
-        resourceSystem.addResource(GameConstants.PRIMARY_CURRENCY, 
-            BigDecimal.ONE);
-        logger.debug("Primary currency updated to: {}", 
-            resourceSystem.getResource(GameConstants.PRIMARY_CURRENCY));
+        BigDecimal clickValue = GameConstants.BASE_CLICK_POWER
+            .multiply(resourceSystem.getClickMultiplier())
+            .multiply(buildingSystem.getClickMultiplier());
+        resourceSystem.addResource(GameConstants.PRIMARY_CURRENCY, clickValue);
+        logger.debug("Click added {} (x{} from upgrades, x{} from buildings)", 
+            clickValue, 
+            resourceSystem.getClickMultiplier(),
+            buildingSystem.getClickMultiplier());
+    }
+
+    public void deductResources(BigDecimal amount) {
+        logger.debug("Deducting {} resources", amount);
+        resourceSystem.deductResource(GameConstants.PRIMARY_CURRENCY, amount);
+        logger.trace("Resources after deduction: {}", getPrimaryResource());
     }
 
     public BigDecimal getPrimaryResource() {
@@ -67,7 +77,7 @@ public class GameManager {
 
     private void updateGame() {
         logger.trace("Updating game state");
-        resourceSystem.updateResources();
+        resourceSystem.updateResources(buildingSystem);
         logger.trace("Resources updated");
         upgradeSystem.applyUpgradeEffects();
         logger.trace("Upgrades applied");
@@ -76,6 +86,10 @@ public class GameManager {
             logger.debug("Auto-saving game state");
             saveGameState();
         }
+    }
+
+    public void updateResources(BuildingSystem buildingSystem) {
+        resourceSystem.updateResources(buildingSystem);
     }
 
     private void checkForUnlocks() {

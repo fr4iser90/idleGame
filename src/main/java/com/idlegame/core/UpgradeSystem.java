@@ -37,9 +37,6 @@ public class UpgradeSystem {
     }
 
     public void applyUpgradeEffects() {
-        // Reset click multiplier before applying upgrades
-        resourceSystem.setClickMultiplier(BigDecimal.ONE);
-        
         // Apply all active upgrades
         upgrades.values().forEach(upgrade -> {
             if (upgrade.getLevel() > 0) {
@@ -108,9 +105,7 @@ public class UpgradeSystem {
         public void applyEffect(ResourceSystem resourceSystem) {
             switch (type) {
                 case CLICK:
-                    BigDecimal currentClick = resourceSystem.getClickMultiplier();
-                    BigDecimal newClick = currentClick.add(BigDecimal.valueOf(effect.calculateEffect(level)));
-                    resourceSystem.setClickMultiplier(newClick);
+                    resourceSystem.addClickMultiplier(id, BigDecimal.valueOf(effect.calculateEffect(level)));
                     break;
                 case PASSIVE:
                     BigDecimal currentRate = resourceSystem.getGenerationRate(GameConstants.PRIMARY_CURRENCY);

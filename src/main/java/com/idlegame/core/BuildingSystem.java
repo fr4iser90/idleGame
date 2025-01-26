@@ -19,34 +19,36 @@ public class BuildingSystem {
         buildings.put(GameConstants.BUILDING_LOW_QUALITY, new Building(
             "Low Quality",
             GameConstants.LOW_QUALITY_BASE_COST,
-            GameConstants.LOW_QUALITY_GENERATION,
+            GameConstants.LOW_QUALITY_MULTIPLIER, 
             GameConstants.LOW_QUALITY_COST_MULTIPLIER
         ));
         
         buildings.put(GameConstants.BUILDING_MEDIUM_QUALITY, new Building(
             "Medium Quality", 
             GameConstants.MEDIUM_QUALITY_BASE_COST,
-            GameConstants.MEDIUM_QUALITY_GENERATION,
+            GameConstants.MEDIUM_QUALITY_MULTIPLIER,
             GameConstants.MEDIUM_QUALITY_COST_MULTIPLIER
         ));
         
         buildings.put(GameConstants.BUILDING_HIGH_QUALITY, new Building(
             "High Quality",
             GameConstants.HIGH_QUALITY_BASE_COST,
-            GameConstants.HIGH_QUALITY_GENERATION,
+            GameConstants.HIGH_QUALITY_MULTIPLIER,
             GameConstants.HIGH_QUALITY_COST_MULTIPLIER
         ));
     }
     
-    public void update() {
-        buildings.values().forEach(building -> {
-            if (building.getCount() > 0) {
-                resourceSystem.addResource(
-                    GameConstants.PRIMARY_CURRENCY,
-                    building.getGenerationRate()
-                );
-            }
-        });
+    public BigDecimal getBuildingMultiplier(String resourceName) {
+        return BigDecimal.valueOf(buildings.values().stream()
+            .filter(b -> b.getAffectedResource().equals(resourceName))
+            .mapToDouble(b -> b.getMultiplierEffect() * b.getCount())
+            .sum()).add(BigDecimal.ONE);
+    }
+    
+    public BigDecimal getClickMultiplier() {
+        return BigDecimal.valueOf(buildings.values().stream()
+            .mapToDouble(b -> b.getMultiplierEffect() * b.getCount())
+            .sum()).add(BigDecimal.ONE);
     }
     
     public boolean canAffordBuilding(String buildingId) {
@@ -72,31 +74,35 @@ public class BuildingSystem {
         return buildings;
     }
     
-    private static class Building {
+    public static class Building {
         private final String name;
+        private final String affectedResource;
         private final BigDecimal baseCost;
-        private final BigDecimal baseGeneration;
+        private final double multiplierEffect;
         private final BigDecimal costMultiplier;
         private int count;
         
         public Building(String name, BigDecimal baseCost, 
-                       BigDecimal baseGeneration, BigDecimal costMultiplier) {
+                       double multiplierEffect, BigDecimal costMultiplier) {
             this.name = name;
+            this.affectedResource = GameConstants.PRIMARY_CURRENCY;
             this.baseCost = baseCost;
-            this.baseGeneration = baseGeneration;
+            this.multiplierEffect = multiplierEffect;
             this.costMultiplier = costMultiplier;
             this.count = 0;
+        }
+
+        public String getAffectedResource() {
+            return affectedResource;
+        }
+
+        public double getMultiplierEffect() {
+            return multiplierEffect;
         }
         
         public BigDecimal getNextCost() {
             return baseCost.multiply(
                 costMultiplier.pow(count)
-            );
-        }
-        
-        public BigDecimal getGenerationRate() {
-            return baseGeneration.multiply(
-                new BigDecimal(count)
             );
         }
         

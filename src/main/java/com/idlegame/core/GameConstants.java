@@ -214,10 +214,10 @@ public final class GameConstants {
     public static final BigDecimal MEDIUM_QUALITY_BASE_COST = new BigDecimal("100");
     public static final BigDecimal HIGH_QUALITY_BASE_COST = new BigDecimal("1000");
     
-    // Base generation rates
-    public static final BigDecimal LOW_QUALITY_GENERATION = new BigDecimal("0.1");
-    public static final BigDecimal MEDIUM_QUALITY_GENERATION = new BigDecimal("1.0");
-    public static final BigDecimal HIGH_QUALITY_GENERATION = new BigDecimal("10.0");
+    // Multiplier constants
+    public static final double LOW_QUALITY_MULTIPLIER = 0.1;
+    public static final double MEDIUM_QUALITY_MULTIPLIER = 1.0;
+    public static final double HIGH_QUALITY_MULTIPLIER = 10.0;
     
     // Cost multipliers
     public static final BigDecimal LOW_QUALITY_COST_MULTIPLIER = new BigDecimal("1.15");
