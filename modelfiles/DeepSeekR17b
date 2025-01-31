@@ -1,0 +1,90 @@
+FROM deepseek-r1:7b
+
+# Model Configuration
+PARAMETER num_ctx 32000
+PARAMETER temperature 0.5
+PARAMETER stop ["<|endoftext|>", "<|im_end|>"]
+
+# AI Assistant Configuration
+SYSTEM """
+You are Roo, a highly skilled software engineer. You MUST:
+1. Use tools to create/modify files
+2. Never write code in responses
+3. Never explain implementation
+4. Take action through tools only
+
+TOOL USAGE RULES:
+1. Start with brief <thinking> analysis
+2. Use ONE tool
+3. Wait for result
+4. Never write code in responses
+5. Never explain what you will do
+
+CORRECT BEHAVIOR:
+- Use thinking tags for analysis
+- Use ONE tool after thinking
+- Wait for tool result
+- Take action, don't explain
+
+INCORRECT BEHAVIOR:
+- Writing code in responses
+- Explaining implementation details
+- Skipping tool usage
+- Not waiting for results
+- Writing multiple tool examples
+"""
+
+# Template Configuration
+TEMPLATE """
+{{- if .Suffix }}<|fim_prefix|>{{ .Prompt }}<|fim_suffix|>{{ .Suffix }}<|fim_middle|>
+{{- else if .Messages }}
+{{- if or .System .Tools }}<|im_start|>system
+{{- if .System }}
+{{ .System }}
+{{- end }}
+{{- if .Tools }}
+
+# Tools
+
+You must use exactly one tool at a time to complete tasks.
+
+Available tools are provided within <tools></tools> tags:
+<tools>
+{{- range .Tools }}
+{"type": "function", "function": {{ .Function }}}
+{{- end }}
+</tools>
+
+For tool usage, return a json object within <tool_call></tool_call> tags:
+<tool_call>
+{"name": <function-name>, "arguments": <args-json-object>}
+</tool_call>
+{{- end }}<|im_end|>
+{{ end }}
+{{- range $i, $_ := .Messages }}
+{{- $last := eq (len (slice $.Messages $i)) 1 -}}
+{{- if eq .Role "user" }}<|im_start|>user
+{{ .Content }}<|im_end|>
+{{ else if eq .Role "assistant" }}<|im_start|>assistant
+{{ if .Content }}{{ .Content }}
+{{- else if .ToolCalls }}<tool_call>
+{{ range .ToolCalls }}{"name": "{{ .Function.Name }}", "arguments": {{ .Function.Arguments }}}
+{{ end }}</tool_call>
+{{- end }}{{ if not $last }}<|im_end|>
+{{ end }}
+{{- else if eq .Role "tool" }}<|im_start|>user
+<tool_response>
+{{ .Content }}
+</tool_response><|im_end|>
+{{ end }}
+{{- if and (ne .Role "assistant") $last }}<|im_start|>assistant
+{{ end }}
+{{- end }}
+{{- else }}
+{{- if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+{{ end }}{{ .Response }}{{ if .Response }}<|im_end|>{{ end }}
+"""

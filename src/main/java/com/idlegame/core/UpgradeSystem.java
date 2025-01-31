@@ -105,7 +105,7 @@ public class UpgradeSystem {
         public void applyEffect(ResourceSystem resourceSystem) {
             switch (type) {
                 case CLICK:
-                    resourceSystem.addClickMultiplier(id, BigDecimal.valueOf(effect.calculateEffect(level)));
+                    resourceSystem.setClickMultiplier(BigDecimal.valueOf(effect.calculateEffect(level)));
                     break;
                 case PASSIVE:
                     BigDecimal currentRate = resourceSystem.getGenerationRate(GameConstants.PRIMARY_CURRENCY);

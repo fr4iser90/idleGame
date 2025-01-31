@@ -3,119 +3,156 @@ package com.idlegame.core;
 import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class BuildingSystem {
+    private static final Logger logger = LoggerFactory.getLogger(BuildingSystem.class);
     private final Map<String, Building> buildings;
     private final ResourceSystem resourceSystem;
-    
+    private BigDecimal prestigeMultiplier = BigDecimal.ONE;
+    private BigDecimal clickMultiplier = BigDecimal.ONE;
+
     public BuildingSystem(ResourceSystem resourceSystem) {
         this.resourceSystem = resourceSystem;
         this.buildings = new HashMap<>();
         initializeBuildings();
     }
-    
+
     private void initializeBuildings() {
-        // Initialize marijuana strain buildings
-        buildings.put(GameConstants.BUILDING_LOW_QUALITY, new Building(
-            "Low Quality",
-            GameConstants.LOW_QUALITY_BASE_COST,
-            GameConstants.LOW_QUALITY_MULTIPLIER, 
-            GameConstants.LOW_QUALITY_COST_MULTIPLIER
-        ));
-        
-        buildings.put(GameConstants.BUILDING_MEDIUM_QUALITY, new Building(
-            "Medium Quality", 
-            GameConstants.MEDIUM_QUALITY_BASE_COST,
-            GameConstants.MEDIUM_QUALITY_MULTIPLIER,
-            GameConstants.MEDIUM_QUALITY_COST_MULTIPLIER
-        ));
-        
-        buildings.put(GameConstants.BUILDING_HIGH_QUALITY, new Building(
-            "High Quality",
-            GameConstants.HIGH_QUALITY_BASE_COST,
-            GameConstants.HIGH_QUALITY_MULTIPLIER,
-            GameConstants.HIGH_QUALITY_COST_MULTIPLIER
-        ));
+        for (int i = 0; i < GameConstants.BUILDING_IDS.length; i++) {
+            String buildingId = GameConstants.BUILDING_IDS[i];
+            buildings.put(buildingId, new Building(
+                buildingId,
+                GameConstants.BUILDING_BASE_COSTS[i],
+                GameConstants.BUILDING_COST_MULTIPLIERS[i],
+                GameConstants.BUILDING_BASE_PRODUCTION[i]
+            ));
+        }
     }
-    
-    public BigDecimal getBuildingMultiplier(String resourceName) {
-        return BigDecimal.valueOf(buildings.values().stream()
-            .filter(b -> b.getAffectedResource().equals(resourceName))
-            .mapToDouble(b -> b.getMultiplierEffect() * b.getCount())
-            .sum()).add(BigDecimal.ONE);
-    }
-    
-    public BigDecimal getClickMultiplier() {
-        return BigDecimal.valueOf(buildings.values().stream()
-            .mapToDouble(b -> b.getMultiplierEffect() * b.getCount())
-            .sum()).add(BigDecimal.ONE);
-    }
-    
-    public boolean canAffordBuilding(String buildingId) {
-        Building building = buildings.get(buildingId);
-        return resourceSystem.canAfford(
-            GameConstants.PRIMARY_CURRENCY,
-            building.getNextCost()
-        );
-    }
-    
+
     public void purchaseBuilding(String buildingId) {
-        if (canAffordBuilding(buildingId)) {
-            Building building = buildings.get(buildingId);
-            resourceSystem.spendResource(
-                GameConstants.PRIMARY_CURRENCY,
-                building.getNextCost()
-            );
-            building.purchase();
+        Building building = buildings.get(buildingId);
+        if (building == null) {
+            logger.error("Attempted to purchase non-existent building: {}", buildingId);
+            return;
+        }
+
+        BigDecimal cost = building.getNextCost();
+        if (resourceSystem.canAfford(GameConstants.PRIMARY_CURRENCY, cost)) {
+            resourceSystem.spend(GameConstants.PRIMARY_CURRENCY, cost);
+            building.incrementCount();
+            logger.info("Purchased building: {} for {}", buildingId, cost);
+        } else {
+            logger.debug("Cannot afford building: {} (cost: {})", buildingId, cost);
         }
     }
-    
-    public Map<String, Building> getBuildings() {
-        return buildings;
+
+    public BigDecimal getProduction() {
+        BigDecimal totalProduction = BigDecimal.ZERO;
+        for (Building building : buildings.values()) {
+            totalProduction = totalProduction.add(building.getCurrentProduction());
+        }
+        return totalProduction.multiply(prestigeMultiplier);
     }
-    
+
+    public BigDecimal getBuildingMultiplier(String resourceId) {
+        BigDecimal multiplier = BigDecimal.ONE;
+        for (Building building : buildings.values()) {
+            multiplier = multiplier.multiply(building.getMultiplierEffect());
+        }
+        return multiplier;
+    }
+
+    public void setPrestigeMultiplier(BigDecimal multiplier) {
+        this.prestigeMultiplier = multiplier;
+    }
+
+    public BigDecimal getClickMultiplier() {
+        return clickMultiplier;
+    }
+
+    public void setClickMultiplier(BigDecimal multiplier) {
+        this.clickMultiplier = multiplier;
+    }
+
+    public Building getBuilding(String buildingId) {
+        return buildings.get(buildingId);
+    }
+
+    public int getTotalBuildingCount() {
+        int total = 0;
+        for (Building building : buildings.values()) {
+            total += building.getCount();
+        }
+        return total;
+    }
+
+    public void reset() {
+        buildings.clear();
+        initializeBuildings();
+        prestigeMultiplier = BigDecimal.ONE;
+        clickMultiplier = BigDecimal.ONE;
+    }
+
+    public void restoreState(BuildingSystem other) {
+        this.prestigeMultiplier = other.prestigeMultiplier;
+        this.clickMultiplier = other.clickMultiplier;
+        this.buildings.clear();
+        this.buildings.putAll(other.buildings);
+    }
+
+    public void applyEfficiencyBonus(BigDecimal bonus) {
+        for (Building building : buildings.values()) {
+            building.applyEfficiencyBonus(bonus);
+        }
+    }
+
     public static class Building {
-        private final String name;
-        private final String affectedResource;
+        private final String id;
         private final BigDecimal baseCost;
-        private final double multiplierEffect;
         private final BigDecimal costMultiplier;
+        private final BigDecimal baseProduction;
         private int count;
-        
-        public Building(String name, BigDecimal baseCost, 
-                       double multiplierEffect, BigDecimal costMultiplier) {
-            this.name = name;
-            this.affectedResource = GameConstants.PRIMARY_CURRENCY;
+        private BigDecimal efficiencyBonus;
+
+        public Building(String id, BigDecimal baseCost, BigDecimal costMultiplier, BigDecimal baseProduction) {
+            this.id = id;
             this.baseCost = baseCost;
-            this.multiplierEffect = multiplierEffect;
             this.costMultiplier = costMultiplier;
+            this.baseProduction = baseProduction;
             this.count = 0;
+            this.efficiencyBonus = BigDecimal.ONE;
         }
 
-        public String getAffectedResource() {
-            return affectedResource;
+        public String getId() {
+            return id;
         }
 
-        public double getMultiplierEffect() {
-            return multiplierEffect;
-        }
-        
-        public BigDecimal getNextCost() {
-            return baseCost.multiply(
-                costMultiplier.pow(count)
-            );
-        }
-        
-        public void purchase() {
-            count++;
-        }
-        
         public int getCount() {
             return count;
         }
-        
-        public String getName() {
-            return name;
+
+        public void incrementCount() {
+            count++;
+        }
+
+        public BigDecimal getNextCost() {
+            return baseCost.multiply(costMultiplier.pow(count));
+        }
+
+        public BigDecimal getCurrentProduction() {
+            return baseProduction
+                .multiply(BigDecimal.valueOf(count))
+                .multiply(efficiencyBonus);
+        }
+
+        public BigDecimal getMultiplierEffect() {
+            return efficiencyBonus;
+        }
+
+        public void applyEfficiencyBonus(BigDecimal bonus) {
+            this.efficiencyBonus = this.efficiencyBonus.multiply(bonus);
         }
     }
 }

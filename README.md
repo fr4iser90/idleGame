@@ -28,7 +28,7 @@ src/
 ### Build & Run
 ```bash
 # Using nix-shell
-nix-shell --run "mvn clean javafx:run"
+nix-shell --run "mvn clean javafx:run"  
 
 # Standard Maven build
 mvn clean package

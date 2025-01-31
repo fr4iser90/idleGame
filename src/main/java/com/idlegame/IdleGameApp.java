@@ -7,11 +7,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class IdleGameApp extends Application {
-    static {
-        System.setProperty("monocle.platform", "Headless");
-        System.setProperty("prism.order", "sw");
-        System.setProperty("prism.text", "t2k");
-    }
     @Override
     public void start(Stage primaryStage) throws Exception {
         // Load FXML file

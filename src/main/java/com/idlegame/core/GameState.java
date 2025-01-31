@@ -1,11 +1,21 @@
 package com.idlegame.core;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.math.BigDecimal;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
-public class GameState {
+import org.slf4j.LoggerFactory;
+
+public class GameState implements java.io.Serializable {
+    private static final long serialVersionUID = 1L;
     private Instant lastSaveTime;
     private boolean autoSaveEnabled;
     private final Map<String, Object> stateData;
@@ -19,10 +29,35 @@ public class GameState {
     public void save() {
         // Save current game state
         lastSaveTime = Instant.now();
+        
+        try {
+            // Create game save directory if it doesn't exist
+            Files.createDirectories(Paths.get("saves"));
+            
+            // Save state to file
+            ObjectOutputStream out = new ObjectOutputStream(
+                new FileOutputStream("saves/gameState.dat")
+            );
+            out.writeObject(this);
+            out.close();
+        } catch (Exception e) {
+            LoggerFactory.getLogger(GameState.class).error("Failed to save game state", e);
+        }
     }
 
-    public void load() {
-        // Load game state from persistence
+    @SuppressWarnings("unchecked")
+    public GameState load() {
+        try {
+            ObjectInputStream in = new ObjectInputStream(
+                new FileInputStream("saves/gameState.dat")
+            );
+            GameState loadedState = (GameState) in.readObject();
+            in.close();
+            return loadedState;
+        } catch (Exception e) {
+            LoggerFactory.getLogger(GameState.class).error("Failed to load game state", e);
+            return null;
+        }
     }
 
     public boolean shouldAutoSave() {
@@ -53,5 +88,9 @@ public class GameState {
 
     public void clearState() {
         stateData.clear();
+    }
+
+    public Instant getLastSaveTime() {
+        return lastSaveTime;
     }
 }

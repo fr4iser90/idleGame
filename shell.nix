@@ -1,5 +1,5 @@
 { pkgs ? import <nixpkgs> {} }:
-
+ # run with nix-shell --run "mvn javafx:run"
 pkgs.mkShell {
   buildInputs = [
     pkgs.jdk17

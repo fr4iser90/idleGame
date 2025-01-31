@@ -1,9 +1,13 @@
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/core/BuildingSystem.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/core/LoggerUtil.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/core/ResourceSystem.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/core/UpgradeSystem.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/ui/MainController.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/core/GameManager.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/core/GameState.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/core/GameConstants.java
-/home/fr4iser/Documents/Git/IdleGame/src/main/java/com/idlegame/IdleGameApp.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/ui/components/UpgradeComponent.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/AchievementSystem.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/UpgradeSystem.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/ui/components/BuildingComponent.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/LoggerUtil.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/GameConstants.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/IdleGameApp.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/ResourceSystem.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/GameManager.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/BuildingSystem.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/GameState.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/core/PrestigeSystem.java
+/home/fr4iser/Documents/Git/IdleGame JETSON_ONLY/src/main/java/com/idlegame/ui/MainController.java
